@@ -1,5 +1,7 @@
-import Header from "@/components/layout/Header";
 import Link from "next/link";
+
+import TopSection from "@/components/home/TopSection";
+import Header from "@/components/layout/Header";
 
 export default function Home() {
   return (
@@ -7,11 +9,7 @@ export default function Home() {
       <Header />
 
       <main>
-        <section>
-          <h1>Trouvez Votre Prochain Livre</h1>
-          <p>Retrouvez la plus grande collection de livres !</p>
-          <button>Voir les livres</button>
-        </section>
+        <TopSection />
 
         <section>
           <div>

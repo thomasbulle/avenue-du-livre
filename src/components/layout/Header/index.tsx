@@ -9,7 +9,7 @@ import { Input } from "@/components/ui/input";
 
 const Header = () => {
   return (
-    <header className="flex justify-center bg-primary">
+    <header className="flex justify-center px-24 bg-secondary">
       <div className="flex flex-1 items-center gap-[20px] max-w-[1440px]">
         <Link href={RoutesPath.HOME}>
           <Image src={Logo} alt="Logo Avenue du Livre" style={{ width: 150 }} />
@@ -21,7 +21,7 @@ const Header = () => {
           <NavLink href={RoutesPath.ABOUT}>A propos</NavLink>
         </nav>
 
-        <div className="flex items-center gap-1">
+        <div className="items-center gap-1 hidden sm:flex">
           <IoSearch />
           <Input className="w-fit" placeholder="Rechercher un livre ..." />
         </div>

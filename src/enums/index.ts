@@ -3,4 +3,5 @@ export enum RoutesPath {
   BOOKS = "/books",
   CATEGORIES = "/categories",
   ABOUT = "/about",
+  CONTACT = "/contact",
 }

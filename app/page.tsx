@@ -1,6 +1,7 @@
 import TopSection from "@/components/home/TopSection";
 import Header from "@/components/layout/Header";
 import Bestsellers from "@/components/home/Bestsellers";
+import Footer from "@/components/layout/Footer";
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
 
         <Bestsellers />
       </main>
+
+      <Footer />
     </>
   );
 }

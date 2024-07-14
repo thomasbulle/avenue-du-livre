@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import Couverture from "../../../../public/images/CVT_Miracle-dans-les-Andes_3249.webp";
+import Couverture from "../../../public/images/CVT_Miracle-dans-les-Andes_3249.webp";
 import { Button } from "@/components/ui/button";
 
 const BookCard = () => {

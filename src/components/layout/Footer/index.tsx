@@ -108,7 +108,7 @@ const Footer = () => {
                   </FormItem>
                 )}
               />
-              <Button>Envoyer</Button>
+              <Button type="submit">Envoyer</Button>
             </form>
           </Form>
         </div>

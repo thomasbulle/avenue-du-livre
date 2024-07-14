@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { IoSearch } from "react-icons/io5";
 
-import Logo from "../../../../public/images/logo.png";
+import Logo from "../../../public/images/logo.png";
 import { RoutesPath } from "@/enums";
-import NavLink from "../NavLink";
+import NavLink from "./NavLink";
 import { Input } from "@/components/ui/input";
 
 const Header = () => {
@@ -16,7 +16,7 @@ const Header = () => {
         </Link>
 
         <nav className="flex-1 flex gap-5">
-          <NavLink href={RoutesPath.HOME}>Livres</NavLink>
+          <NavLink href={RoutesPath.BOOKS}>Livres</NavLink>
           <NavLink href={RoutesPath.CATEGORIES}>Catégories</NavLink>
           <NavLink href={RoutesPath.ABOUT}>A propos</NavLink>
         </nav>

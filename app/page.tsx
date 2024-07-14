@@ -1,20 +1,15 @@
 import TopSection from "@/components/home/TopSection";
-import Header from "@/components/layout/Header";
 import Bestsellers from "@/components/home/Bestsellers";
-import Footer from "@/components/layout/Footer";
+import Layout from "@/components/layout";
 
 export default function Home() {
   return (
-    <>
-      <Header />
-
+    <Layout>
       <main>
         <TopSection />
 
         <Bestsellers />
       </main>
-
-      <Footer />
-    </>
+    </Layout>
   );
 }
